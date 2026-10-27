@@ -32,6 +32,9 @@ function memoryAdd() {
         memory += currentValue;
     }
 }
+export default {
+  base: '/Simple-Calculator/',
+}
 
 function memorySubtract() {
     let currentValue = parseFloat(document.getElementById('display').value);
